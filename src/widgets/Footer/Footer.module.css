@@ -1,0 +1,38 @@
+footer{
+    background-color: #364250;
+    padding: 32px 64px;
+    color: aliceblue;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-container-section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer-container-section h2{
+    color: gray;
+    border-bottom: 3px solid gray;
+    font-size: 14px;
+}
+
+.footer-container-section p{
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.footer-container-section a{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.footer-container-section-contacts{
+    display: flex;
+    gap: 8px;
+}

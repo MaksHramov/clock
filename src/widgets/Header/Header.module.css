@@ -1,0 +1,31 @@
+header{
+    background-color: #F7F9FB;
+    padding: 0px 32px;
+}
+
+ul{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul li{
+    cursor: pointer;
+}
+
+.header-container{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.button-menu{
+    transition: all 500ms ease;
+}
+
+.button-menu:hover{
+    color: grey;
+    transform: scale(1.1);
+}
