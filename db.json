@@ -1,0 +1,128 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Apple Watch Series 9",
+        "price": 45990,
+        "category": "Смарт-часы",
+        "image": "https://my-apple-store.ru/wa-data/public/shop/products/97/45/14597/images/27372/27372.750@2x.jpeg",
+        "description": "Always-On дисплей, чип S9, измерение температуры, отслеживание сна и тренировок"
+      },
+      {
+        "id": 2,
+        "title": "Samsung Galaxy Watch 6 Classic",
+        "price": 34990,
+        "category": "Смарт-часы",
+        "image": "https://hi-stores.ru/upload/iblock/6ec/5v2j3f7e1qljcscrq1ncio4kenfdlu80.jpg",
+        "description": "Поворотный безель, Sapphire Crystal, измерение давления и ЭКГ"
+      },
+      {
+        "id": 3,
+        "title": "Casio G-Shock GA-2100",
+        "price": 18990,
+        "category": "Кварцевые",
+        "image": "https://cdn.sportmaster.ru/upload/mdm/media_content/resize/70a/768_1024_1982/83604340299.jpg",
+        "description": "Ударопрочный корпус, 200 метров водозащиты, подсветка Super Illuminator"
+      },
+      {
+        "id": 4,
+        "title": "Xiaomi Watch S3",
+        "price": 12990,
+        "category": "Смарт-часы",
+        "image": "https://www.mijia-shop.com/wp-content/uploads/2023/10/Xiaomi-Watch-S3.jpg",
+        "description": "Сменный безель, GPS, 15 дней автономности, AMOLED дисплей 1.43'"
+      },
+      {
+        "id": 5,
+        "title": "Tissot PRX Powermatic 80",
+        "price": 89990,
+        "category": "Механические",
+        "image": "https://spb.kronostime.ru/upload/iblock/824/wyfzgd9ijthyqtg57l50hx43sp4acvrt/T137.407.11.041.00.jpg",
+        "description": "Автоматический механизм, запас хода 80 часов, сапфировое стекло"
+      },
+      {
+        "id": 6,
+        "title": "Garmin Fenix 7X",
+        "price": 74990,
+        "category": "Спортивные",
+        "image": "https://static.insales-cdn.com/r/MHZzFaNz6rg/rs:fit:1000:0:1/q:100/plain/images/products/1/4201/850382953/010-02778-11.jpg@jpg",
+        "description": "Solar зарядка, топографические карты, 37 дней автономности"
+      },
+      {
+        "id": 7,
+        "title": "Seiko 5 Sports",
+        "price": 39990,
+        "category": "Механические",
+        "image": "https://images.firstclasswatches.com/D8hTgkry6XOASY637wCvi3v0kiy0ckU8vVc2TnGXk7M/rs:fit:0:1000/bg:fffcfa/bG9jYWw6Ly8vaW1hZ2VzL3Byb2R1Y3RzL3Byb2R1Y3Q1NTE2NS02MDkzX2Nyb3BwZWQuanBn.jpg",
+        "description": "Автоматический подзавод, люминесцентные стрелки, дата и день недели"
+      },
+      {
+        "id": 8,
+        "title": "Huawei Watch GT 4",
+        "price": 19990,
+        "category": "Смарт-часы",
+        "image": "https://lunafon.ru/image/cache/catalog/SmartWatch/huawei-55020bgx-1000x1000.jpg",
+        "description": "8-угольный корпус, 14 дней работы, более 100 режимов тренировок"
+      },
+      {
+        "id": 9,
+        "title": "Citizen Eco-Drive",
+        "price": 45990,
+        "category": "Солнечные",
+        "image": "https://images.firstclasswatches.com/-hulyOKYxDJWQ0TGgPief3ShvD0aUsUTdxyaMFLml_c/rs:fit:0:1000/bg:fffcfa/bG9jYWw6Ly8vaW1hZ2VzL3Byb2R1Y3RzL3Byb2R1Y3QxMzU5NTgtNzQ3OV9jcm9wcGVkLmpwZw.jpg",
+        "description": "Подзарядка от любого света, точность ±15 секунд в месяц, вечный календарь"
+      },
+      {
+        "id": 10,
+        "title": "Amazfit Balance",
+        "price": 16990,
+        "category": "Фитнес-часы",
+        "image": "https://www.mijia-shop.ru/wp-content/uploads/2023/09/Amazfit-Balance.jpg",
+        "description": "Анализ состава тела, AI тренер, 14 дней автономности"
+      },
+      {
+        "id": 11,
+        "title": "Omega Speedmaster Professional",
+        "price": 549990,
+        "category": "Люксовые",
+        "image": "https://submarinashop.ru/assets/images/products/4943/310.32.42.50.01.001-omega-speedmaster-moonwatch-professional-1.jpg",
+        "description": "Первые часы на Луне, хронограф, сапфировое стекло, механизм Omega 3861"
+      },
+      {
+        "id": 12,
+        "title": "Polar Vantage V3",
+        "price": 54990,
+        "category": "Спортивные",
+        "image": "https://magazin-sportlife.ru/uploads/images/2024/02/6ba0778b96e2ebd37cf9d193f1ac320e-md.jpg",
+        "description": "ЭКГ, пульсоксиметр, биоимпедансный анализ, топографические карты"
+      }
+    ],
+    "cart": [],
+    "favorites": [],
+    "reviews": [
+      {
+        "id": 1,
+        "productId": 1,
+        "userName": "Алексей",
+        "rating": 5,
+        "comment": "Отличные часы, батареи хватает на 2 дня активного использования",
+        "date": "2024-03-15"
+      },
+      {
+        "id": 2,
+        "productId": 3,
+        "userName": "Михаил",
+        "rating": 5,
+        "comment": "Неубиваемые часы, уже 3 года полет нормальный",
+        "date": "2024-03-10"
+      },
+      {
+        "id": 3,
+        "productId": 8,
+        "userName": "Екатерина",
+        "rating": 4,
+        "comment": "Красивые, удобные, но ремешок жестковат",
+        "date": "2024-03-05"
+      }
+    ]
+  }
