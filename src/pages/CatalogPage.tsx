@@ -11,6 +11,9 @@ function CatalogPage() {
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null)
     const [isModalItem, setIsModalItem] = useState<TClock | null>(null)
+    const [search, setSearch] = useState<string>("");
+
+    const searchClock = clocks.filter(item => item.title.toLowerCase().includes(search.toLowerCase()));
 
     useEffect(() => {
         async function fetchClocks(){
@@ -33,8 +36,15 @@ function CatalogPage() {
     return ( 
         <>
             <main>
+                <div className={styles["catalog-search"]}>
+                    <div className={styles["search-box"]}>
+                        <input className={styles["search-input"]} type="text" value={search} placeholder="Search" onChange={(e) => setSearch(e.target.value)}
+                        />
+                    </div>
+                </div>
+
                 <div className={styles["catalog-page"]}>
-                    {clocks.map(item => (
+                    {searchClock.map(item => (
                         <Card key={item.id} id={item.id} title={item.title} price={item.price} image={item.image} description={item.description} category={item.category} onClick={() => setIsModalItem(item)}/>
                     ))}
                 </div>
