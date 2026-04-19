@@ -46,13 +46,6 @@
     white-space: nowrap;
   }
   
-  .card-description {
-    font-size: 13px;
-    color: #666666;
-    line-height: 1.5;
-    margin: 0;
-  }
-  
   .card-button {
     padding: 12px 0;
     background: #111111;
