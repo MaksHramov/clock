@@ -12,8 +12,14 @@ function CatalogPage() {
     const [error, setError] = useState<string | null>(null)
     const [isModalItem, setIsModalItem] = useState<TClock | null>(null)
     const [search, setSearch] = useState<string>("");
+    const [sortAlphabet, setSortAlphabet] = useState<boolean>(false);
 
-    const searchClock = clocks.filter(item => item.title.toLowerCase().includes(search.toLowerCase()));
+    const searchClock = clocks.filter(item => item.title.toLowerCase().includes(search.toLowerCase())).sort((a, b) => {
+            if (sortAlphabet) {
+                return a.title.localeCompare(b.title);
+            }
+            return 0;
+        });
 
     useEffect(() => {
         async function fetchClocks(){
@@ -41,6 +47,9 @@ function CatalogPage() {
                         <input className={styles["search-input"]} type="text" value={search} placeholder="Search" onChange={(e) => setSearch(e.target.value)}
                         />
                     </div>
+                    <button className={styles["catalog-button-sort"]} onClick={() => setSortAlphabet(!sortAlphabet)}>
+                        {sortAlphabet ? "Отменить сортировку" : "Сортировать по алфавиту"}
+                    </button>
                 </div>
 
                 <div className={styles["catalog-page"]}>

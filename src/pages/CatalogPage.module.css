@@ -47,3 +47,9 @@
   .search-input::placeholder {
     color: #999;
   }
+
+  .catalog-button-sort{
+    background: #000;
+    border-radius: 16px;
+    color: aliceblue;
+  }
