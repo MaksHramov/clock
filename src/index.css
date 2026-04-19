@@ -19,4 +19,5 @@ a{
 }
 main{
   margin: 64px 0px;
+  min-height: 100vh;
 }

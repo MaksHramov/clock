@@ -35,15 +35,7 @@ function CatalogPage() {
             <main>
                 <div className={styles["catalog-page"]}>
                     {clocks.map(item => (
-                        <Card 
-                            key={item.id} 
-                            title={item.title} 
-                            price={item.price} 
-                            image={item.image} 
-                            description={item.description} 
-                            category={item.category} 
-                            onClick={() => setIsModalItem(item)}
-                        />
+                        <Card key={item.id} id={item.id} title={item.title} price={item.price} image={item.image} description={item.description} category={item.category} onClick={() => setIsModalItem(item)}/>
                     ))}
                 </div>
 

@@ -5,6 +5,7 @@ import CatalogPage from './pages/CatalogPage'
 import Banner from './widgets/Banner/Banner'
 import Footer from './widgets/Footer/Footer'
 import Header from './widgets/Header/Header'
+import BasketPage from './pages/BasketPage/BasketPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Banner />}/>
         <Route path="/catalog" element={<CatalogPage />}/>
+        <Route path='/basket' element={<BasketPage/>}/>
       </Routes>
       <Footer />
 
