@@ -5,4 +5,5 @@ export type TClock = {
     category?: string,
     image: string,
     description?: string
+    count: number
 }
