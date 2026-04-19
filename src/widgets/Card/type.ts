@@ -1,8 +1,8 @@
 export type TClock = {
-    id: number,
+    id?: number,
     title: string,
     price: number,
-    category: string,
+    category?: string,
     image: string,
-    description: string
+    description?: string
 }
